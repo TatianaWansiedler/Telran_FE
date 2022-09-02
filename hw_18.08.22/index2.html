@@ -1,0 +1,98 @@
+<!-- Шаблон2 https://miro.medium.com/max/700/1*gaN7h99jHpTAP1ba3AWKng.png -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <style>
+    html {
+      background: rgb(108, 98, 95);
+    }
+
+    .section {
+      display: flex;
+      justify-content: space-between;
+      margin: 30px;
+      height: 100vh;
+    }
+
+    .section-part1 {
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column-reverse;
+      background: rgb(113, 213, 181);
+      width: 45vw;
+      margin-right: 15px;
+    }
+
+    .section-part1 p {
+      color: rgb(108, 98, 95);
+      font-size: 100px;
+      font-family: system-ui;
+      font-weight: 300;
+      letter-spacing: 10px;
+      margin: 20px 50px;
+    }
+
+    .wrapper {
+      display: flex;
+      margin: 0 0 0 25px;
+      width: 55vw;
+      flex-direction: column;
+    }
+
+    .wrapper div {
+      height: calc(100%/3);
+      margin: 0;
+    }
+
+    .is-item1 {
+      background: rgb(113, 213, 181)
+    }
+
+    .is-item2 {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .is-item2 p {
+      background: rgb(113, 213, 181);
+      width: 48%;
+      margin: 30px 0;
+    }
+
+    .is-item3 {
+      background: rgb(113, 213, 181);
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <section class="section">
+      <div class="section-part1">
+        <div>
+          <p>Flexbox</p>
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="is-item1">
+        </div>
+        <div class="is-item2">
+          <p>
+          </p>
+          <p>
+          </p>
+        </div>
+        <div class="is-item3">
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>

@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700&family=Roboto+Slab:wght@200;300;400&display=swap");
+
+html {
+    background: hsl(34, 96%, 90%);
+}
+
+body {
+    font-family: "Roboto Flex", sans-serif;
+    margin: 0;
+}
+
+h1 {
+    background-color: rgb(246, 211, 169);
+    text-align: center;
+    font-family: "Roboto Slab", serif;
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    padding: 10px;
+    border-top: 4px solid #0602024a;
+    border-bottom: 4px solid #0602024a;
+}
+
+h4 {
+    background-color: rgb(65 62 62 / 27%);
+    text-align: left;
+    font-family: "Roboto Slab", serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0;
+    padding: 10px;
+    border: 3px solid #0602024a;
+    border-radius: 20px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 1.15;
+    /* letter-spacing: 1px; */
+    text-indent: 1.5rem;
+    text-align: justify;
+    margin: 20px 10px;
+}
+
+a {
+    color: rgb(101, 96, 191);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+img {
+    width: auto;
+    height: 100px;
+}
+
+ul {
+    padding: 0;
+    margin: 20px 10px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.is-list {
+    background-color: rgb(65 62 62 / 27%);
+    color: rgb(101, 96, 191);
+    text-align: left;
+    font-weight: 500;
+    font-size: large;
+    font-family: "Roboto Slab", serif;
+    width: 300px;
+    margin: 4px 0 20px 0;
+    padding: 10px;
+    border: 2px solid #0602024a;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+        rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+i {
+    color: black;
+}
+
+.align-cent {
+    text-align: center;
+    padding: 15px;
+}
+
+.size-img2 {
+    width: 250px;
+    height: auto;
+    border-radius: 150px;
+    border: 6px solid #0602024a;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+        rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 5rem;
+    margin: 0;
+}
+
+.content {
+    margin-top: 10rem;
+}
