@@ -17,7 +17,6 @@
         }
         *{
             margin: 0;
-            padding: 0;
             box-sizing: border-box;
         }
 
@@ -27,13 +26,14 @@
             align-items: center;
             height: 100vh;
             background: rgb(255,255,255);
+            padding: 40px;
         }
         .page {
             display: flex;
             justify-content: space-around;
             background:var(--page-back-color);
-            width: 1400px;
-            height: 700px;
+            width: 100%;
+            height: 100%;
             padding: 60px 40px;
             gap: 20px;
             font-size: 5rem;
@@ -57,37 +57,41 @@
         }
         .block-left__header{
             background: var(--block-l-header-back-color);
-            height: 250px;
+            height: 50%;
             padding-top: 80px;
         } 
         .block-left__wrap{
             display: flex;
             justify-content: space-between;
-            height: 300px;
+            height: 50%;
             gap: 40px;
         }
         .block-left__content {
-            width:50%; 
+            width:50%;
+
         }
         .block-left__content--pink{
             background:var(--block-l-cont-back-color);
+            height: 100%; 
             padding-top: 80px;
         }
         .block-left__content--blue{
             display: flex;
             flex-direction: column;
-            justify-content: space-around;
-            gap: 20px;
+            justify-content: space-between;
         }
         .block-left__item {
             height:50%;
             background:var(--block-left-item-back-color);
-            padding-top: 20px;
+            padding-top: 10px;
+        }
+        .m-b {
+            margin-bottom: 20px;
         }
         @media (max-width: 768px) {
-            .body {
-                background: var(--page-back-color);
-                height: 100vh;
+
+            body {
+                padding: 0;
             }
             .page{
                 flex-direction: column;
@@ -97,6 +101,7 @@
             }
             .block-right {
                 width: 100%;
+                height: 60%;
                 padding-top: 80px;
             }
             .block-left {
@@ -104,14 +109,14 @@
                 gap: 20px;
             }
             .block-left__header {
-                height: 150px;
-                padding-top: 40px;
+                padding-top: 20px;
             }
-
-            .block-left__wrap {
-            width:100%; 
-            height: 250px;
-            gap: 15px;
+            .block-left__wrap { 
+                height: 100%;
+                gap: 15px;
+            }
+            .block-left__content--pink{
+                padding-top: 60px;
             }
         }
 
@@ -133,7 +138,7 @@
                     <p>3</p>
                 </div>
                 <div class="block-left__content block-left__content--blue">
-                    <div class="block-left__item">
+                    <div class="block-left__item m-b">
                         <p>4a</p>
                     </div>
                     <div class="block-left__item">
