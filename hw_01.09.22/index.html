@@ -45,7 +45,6 @@
             background: var(--block-r-back-color);
             height: 100%;
             width: 40%;
-            padding-top: 250px;
         }
         .block-left {
             display: flex;
@@ -57,8 +56,7 @@
         }
         .block-left__header{
             background: var(--block-l-header-back-color);
-            height: 50%;
-            padding-top: 80px;
+            height: 40%;
         } 
         .block-left__wrap{
             display: flex;
@@ -67,13 +65,12 @@
             gap: 40px;
         }
         .block-left__content {
-            width:50%;
+            width:60%;
 
         }
         .block-left__content--pink{
             background:var(--block-l-cont-back-color);
             height: 100%; 
-            padding-top: 80px;
         }
         .block-left__content--blue{
             display: flex;
@@ -83,11 +80,15 @@
         .block-left__item {
             height:50%;
             background:var(--block-left-item-back-color);
-            padding-top: 10px;
+            height: 47%;
         }
-        .m-b {
-            margin-bottom: 20px;
+
+        .is-centered {
+            display: flex;
+            justify-content: center;
+            align-items:center;
         }
+
         @media (max-width: 768px) {
 
             body {
@@ -102,21 +103,14 @@
             .block-right {
                 width: 100%;
                 height: 60%;
-                padding-top: 80px;
             }
             .block-left {
                 width: 100%;
                 gap: 20px;
             }
-            .block-left__header {
-                padding-top: 20px;
-            }
             .block-left__wrap { 
                 height: 100%;
                 gap: 15px;
-            }
-            .block-left__content--pink{
-                padding-top: 60px;
             }
         }
 
@@ -126,22 +120,22 @@
 <body>
     
     <main class="page">
-        <section class="block-right">
+        <section class="block-right is-centered ">
             <p>1</p>
         </section>
         <section class="block-left">
-            <header class="block-left__header">
+            <header class="block-left__header is-centered ">
                 <p>2</p>
             </header>
             <section class="block-left__wrap">
-                <div class="block-left__content block-left__content--pink">
+                <div class="block-left__content block-left__content--pink is-centered ">
                     <p>3</p>
                 </div>
                 <div class="block-left__content block-left__content--blue">
-                    <div class="block-left__item m-b">
+                    <div class="block-left__item is-centered">
                         <p>4a</p>
                     </div>
-                    <div class="block-left__item">
+                    <div class="block-left__item is-centered">
                         <p>4b</p>
                     </div>
                 </div>
