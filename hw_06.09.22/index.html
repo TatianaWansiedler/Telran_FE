@@ -22,23 +22,47 @@
                 <h5 class="menu__title">Main Navigation</h5>
                 <ul class="menu__list">
                     <li class="menu__item">
-                        <a href=""><i class="las la-th-large"></i></i>Dashboard</a>
-                        <a class="is-gray" href="">></a>
+                        <a class="menu__lincs" href="#">
+                            <span class="menu__icon mr-10"><i class="las la-th-large"></i></span>
+                            <span class="menu__text">Dashboard</span>    
+                        </a>
+                        <a class="is-gray" href="#">
+                            >
+                        </a>
+                    </li>
+
+                    <li class="menu__item">
+                        <a class="menu__lincs" href="#">
+                            <span class="menu__icon mr-10"><i class="las la-briefcase"></i></span>
+                            <span class="menu__text">Transactions</span>
+                        </a>
+                        <a class="is-gray" href="#">
+                            >
+                        </a>
                     </li>
                     <li class="menu__item">
-                        <a href=""><i class="las la-briefcase"></i>Transactions</a>
-                        <a class="is-gray" href="">></a>
+                        <a class="menu__lincs" href="#"> 
+                            <span class="menu__icon mr-10"><i class="las la-share-alt-square"></i></span> 
+                            <span class="menu__text">Contacts</span>
+                        </a>
+                        <a class="is-gray" href="#">
+                            >
+                        </a>
                     </li>
                     <li class="menu__item">
-                        <a href=""> <i class="las la-share-alt-square"></i>Contacts</a>
-                        <a class="is-gray" href="">></a>
+                        <a class="menu__lincs" href="#"> 
+                            <span class="menu__icon mr-10"><i class="las la-toggle-on"></i></span>
+                            <span class="menu__text">Features</span>
+                        </a>
+                        <a class="is-gray" href="#">
+                            >
+                        </a>
                     </li>
                     <li class="menu__item">
-                        <a href=""> <i class="las la-toggle-on"></i>Features</a>
-                        <a class="is-gray" href="">></a>
-                    </li>
-                    <li class="menu__item">
-                        <a href=""><i class="las la-book"></i>Library</a>
+                        <a class="menu__lincs" href="#">
+                            <span class="menu__icon mr-10"><i class="las la-book"></i></span>
+                            <span class="menu__text">Library</span>
+                        </a>
                     </li>
                 </ul>
             </nav>
@@ -46,25 +70,45 @@
                 <h5 class="menu__title">Settings & Schedules</h5>
                 <ul class="menu__list">
                     <li class="menu__item">
-                        <a href=""><i class="las la-cube"></i>Base Wallet</a>
-                        <a class="is-gray" href="">></a>
+                        <a class="menu__lincs" href="#">
+                            <span class="menu__icon mr-10"><i class="las la-cube"></i></span> 
+                            <span class="menu__text">Base Wallet</span>
+                        </a>
+                        <a class="is-gray" href="#">
+                            >
+                        </a>
                     </li>
                     <li class="menu__item">
-                        <a href=""><i class="las la-folder-open"></i>My Contacts</a>
-                        <a class="is-gray" href="">></a>
+                        <a class="menu__lincs" href="#">
+                            <span class="menu__icon mr-10"><i class="las la-folder-open"></i></span>
+                            <span class="menu__text">My Contacts</span>
+                        </a>
+                        <a class="is-gray" href="#">
+                            >
+                        </a>
                     </li>
                     <li class="menu__item">
-                        <a href=""> <i class="las la-golf-ball"></i>Invoices</a>
-                        <a class="is-gray" href="">></a>
+                        <a class="menu__lincs" href="#"> 
+                            <span class="menu__icon mr-10"><i class="las la-golf-ball"></i></span>
+                            <span class="menu__text">Invoices</span> 
+                        </a>
+                        <a class="is-gray" href="#">
+                            >
+                        </a>
                     </li>
                     <li class="menu__item">
-                        <a href=""> <i class="las la-project-diagram"></i>Schedules</a>
-                        <a class="is-gray" href="">></a>
+                        <a class="menu__lincs" href="#"> 
+                            <span class="menu__icon mr-10"><i class="las la-project-diagram"></i></span>
+                            <span class="menu__text"> Schedules</span>  
+                        </a>
+                        <a class="is-gray" href="#">
+                            >
+                        </a>
                     </li>
                 </ul>
             </nav>
             <div class="board">
-                <i class="board__icon las la-question-circle"></i>
+                <span class="board__icon"><i class="las la-question-circle"></i></span>
                 <h3 class="board__title">Help Center</h3>
                 <p class="board__text">Having trouble in Finti. <br/> Please contact us for more questions.</p>
                 <button class="board__button"> Go To Help Center</button>
@@ -106,12 +150,88 @@
             <!-- ---------------------------------------------------------- -->
             
             <div class="cards">
-                <section class="cards__1">
-                    <h5>Your Working Balance</h5>
-                    <a href="">Saving Account</a>
-                    <h2>PKR 9,250,00</h2>
-                    <h5>PKR ^</h5>
+                <section class="card card--blue">
+
+                    <div class="card__top">
+                        <div class="card__title">
+                            <h5>Your Working Balance</h5>
+                        </div>
+                        <div class="card__link">
+                            <a href="">Saving Account</a>
+                        </div>
+                    </div>
+                    <div class="card__bottom">
+                       <div class="card__count">
+                            <h2>PKR 9,250,00</h2>
+                       </div> 
+                        <div class="card__item">
+                            <h5>PKR </h5>
+                        </div>
+                        <span class="card__item">
+                            &or;
+                        </span>
+                    </div>
+                                  
                 </section>
+                <section class="card card--pink">
+
+                    <div class="card__top">
+                        <div class="card__title">
+                            <h5>Your Saving Status</h5> 
+                        </div>
+                        <div class="card__link">
+                            <a href="">
+                                <i class="las la-question-circle"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__bottom card__bottom--1">
+                        <div class="card__icon mr-15" > 
+                           <i class="las la-cube"></i>
+                        </div>
+                        <div class="">
+                            <div class="card__item card__item--medium">
+                                <h3>4.28% </h3>
+                            </div>
+                            <div class="card__item">
+                                <h5>Your Spending increased</h5>
+                            </div>
+                        </div>
+                    </div>
+                                  
+                </section>
+                <section class="card card--green">
+
+                    <div class="card__top">
+                        <div class="card__sytsem">
+                            <i class="las la-circle"></i>
+                        </div>
+                        <div class="card__subtitle">
+                            <h5>card number</h5> 
+                        </div>
+                        <div class="card__">
+                            <p>3829 4820 4629 5025</p>
+                        </div>
+                    </div>
+                    <div class="card__bottom card__bottom--1">
+                        <div class="card__"> 
+                           
+                        </div>
+                        <div class="card__i">
+                                
+                        </div>
+                        <div class="card__">
+                            
+                            
+                        </div>
+                        <div class="card__">
+                            
+                            
+                        </div>
+                    </div>
+                                  
+                </section>
+
             </div>
          
         </main>
